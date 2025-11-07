@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.image_logo {
+  height: 220px;
+  width: 160px;
+  display: flex; /*activer l'alignement*/
+} /*change la taille de l'image*/
+
+.titre {
+  padding: 20px 15%;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  font-size: 25px;
+  border-radius: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.espacement {
+  background-color: white;
+  padding: 30px;
+}
+.espacement2 {
+  background-color: white;
+  padding: 60px;
+}
+
+.image_banniere {
+  height: 275px;
+  width: 100%;
+  object-fit: cover;
+  border: 3px solid black;
+}
+
+.texte_principale {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 150px;
+  align-items: center;
+}
+
+.image_texte_principale {
+  height: auto;
+  width: 400px;
+  margin-right: 50px;
+}
+.titre_texte {
+  display: flex;
+  justify-content: center;
+  padding-left: 30%;
+  font-size: 30px;
+}
+
+.texte_theme {
+  font-size: 20px;
+  font-style: normal;
+  color: black;
+  margin-left: 50px;
+}
+.h1 {
+  justify-content: center; /*met au centre*/
+  display: flex;
+  font-size: 48px;
+  padding-top: 150px;
+}
+
+.bloc_image {
+  display: flex;
+  flex-direction: column; /*empile les images verticalement*/
+  align-items: flex-end; /*les colles à droite*/
+  margin-right: 50px;
+}
+
+.bloc_mode_de_jeu {
+  background-color: yellow;
+  border: 30px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 50px 100px;
+}
+
+.ligne_mode {
+  display: flex;
+  justify-content: space-between; /*place le texte et l'image aux extrémités*/
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.texte_mode {
+  width: 60%;
+  font-size: 23px;
+  color: black;
+  padding: 20px;
+}
+
+.cadre_image {
+  background-color: yellow;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.image_mode_de_jeu {
+  height: 500px;
+  width: 400px;
+  display: block; /* permet de bien positionner l'image*/
+  border-radius: 10px;
+}
+
+.bloc_global_mode {
+  background-color: rgb(255, 255, 168);
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 60px 100px;
+}
+
+.bouton_lien {
+  display: inline-block; /*permet au lien d'avoir la taille d'un block*/
+  padding: 10px 20px;
+  background-color: rgb(249, 249, 249);
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-decoration: none; /*supprime le soulignement*/
+  font-weight: bold; /*texte gras*/
+  cursor: pointer;
+  margin-left: 640px;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.coffre_titre {
+  margin-top: 90px;
+  margin-left: 27%;
+  font-size: 25px;
+}
+
+.image_coffre {
+  height: 230px;
+  width: 250px;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start; /*les colles à droite*/
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+
+.coffre_section {
+  background-image: url(image/image\ dérriére\ les\ coffre.jpeg);
+  background-repeat: no-repeat; /*ne duplique pas l'image*/
+  background-position: center;
+  padding: 60px 100px;
+  border: 3px solid black;
+}
+
+.ligne_coffre {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.texte_coffre {
+  font-size: 20px;
+  color: black;
+  width: 50%;
+  margin-left: 30px;
+  color: white;
+}
+
+.titre_arene {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.grille_arene {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /*3colonnes*/
+  gap: 50px;
+  padding: 0 100px;
+  flex-direction: column;
+}
+
+.case_arene {
+  background-color: blanchedalmond;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  align-items: center;
+  box-shadow: 4px 4px 0 black; /*ajoute une ombre pour faire texture*/
+  text-align: center;
+}
+
+.case_arene_img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.case_arene_texte {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.division {
+  margin-bottom: 100px;
+}
